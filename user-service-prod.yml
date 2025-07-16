@@ -1,12 +1,14 @@
 server:
-  port:9001
+  port: 9001
+  
 spring:
+  application:
+    name: user-service
   datasource:
     username: root
     url: jdbc:mysql://localhost:3306/userdb
     password: aman
-  application:
-    name: user-service-prod
+  
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
