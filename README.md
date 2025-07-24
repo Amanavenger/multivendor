@@ -1,1 +1,3 @@
 # multivendor
+
+#PROFILES FOR MULTI-VENDOR-ECOMMERCE
